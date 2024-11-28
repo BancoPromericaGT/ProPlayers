@@ -6955,7 +6955,7 @@ img.rounded {
     bottom: 0;
     left: 0;
     color: #fff;
-    background-color: rgba(221, 22, 59, 0.75);
+    background-color: rgba(41, 121, 122, 0.30);
     opacity: 0;
     -webkit-transition: .2s opacity;
     -o-transition: .2s opacity;
@@ -6999,7 +6999,7 @@ img.rounded {
 /* Gallery Group */
 .nk-gallery-item-group .nk-gallery-item-overlay {
     padding-bottom: 55px;
-    background-color: rgba(23, 30, 34, 0.65);
+    background-color: rgba(58, 78, 147, 0.30);
 }
 
 .nk-gallery-item-group .nk-gallery-item-description {
@@ -7012,7 +7012,7 @@ img.rounded {
     color: #fff;
     text-indent: 0;
     white-space: normal;
-    background-color: rgba(221, 22, 59, 0.75);
+    background-color: rgba(41, 121, 122, 0.50);
 }
 
 .nk-gallery-item-group .nk-gallery-item-description .nk-gallery-item-description-title {
