@@ -1,4 +1,4 @@
-/*!----------------------------------------------------------------
+/*!---------------------------------------------------------------
     Version: 1.4.0
     Author: nK
     Website: https://nkdev.info/
@@ -7828,7 +7828,7 @@ div.nk-error {
  ----------------------------*/
 .nk-image-slider {
     position: relative;
-    height: 400px;
+    height: 420px;
     overflow: hidden;
     background-color: #232930;
     border-bottom: 3px solid #01ff00;
