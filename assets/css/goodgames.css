@@ -876,7 +876,7 @@ h6,
  * Text Color Helper
  */
 .text-main-1 {
-    color: #F027FF !important;
+    color: #FFFFFF !important;
 }
 
 .text-main-2 {
@@ -6126,7 +6126,7 @@ img.rounded {
 }
 
 .nk-tabs .nav-tabs .nav-link.active, .nk-tabs .nav-tabs .nav-link.active:focus, .nk-tabs .nav-tabs .nav-link.active:hover {
-    background-color: #01ff00;
+    background-color: #29797A;
 }
 
 .nk-tabs .nav-tabs.nav-tabs-fill {
