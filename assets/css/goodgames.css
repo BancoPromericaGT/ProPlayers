@@ -6803,8 +6803,8 @@ img.rounded {
 }
 
 .nk-carousel[data-arrows="true"] .nk-carousel-inner {
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 @media (max-width: 991px) {
