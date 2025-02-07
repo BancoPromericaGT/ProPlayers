@@ -59,6 +59,21 @@
     <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/486d531a62.js" crossorigin="anonymous"></script>
     
+	 <style>
+        .custom-radio {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .custom-radio input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        .custom-radio span {
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 
@@ -502,18 +517,18 @@
                 <div class="col-lg-6">
                     <div class="row vertical-gap">
                         <div class="col-sm-6">
-                            <label for="fname">Nombre<span class="text-main-1">*</span>:</label>
-                            <input type="text" class="form-control required" name="fname" id="fname">
+                            <label for="fname">Nombres<span class="text-main-1">*</span>:</label>
+                            <input type="text" class="form-control required" name="fname" id="nombres">
                         </div>
                         <div class="col-sm-6">
-                            <label for="lname">Apellido<span class="text-main-1">*</span>:</label>
-                            <input type="text" class="form-control required" name="lname" id="lname">
+                            <label for="lname">Apellidos<span class="text-main-1">*</span>:</label>
+                            <input type="text" class="form-control required" name="lname" id="apellidos">
                         </div>
                     </div>
 
                     <div class="nk-gap-1"></div>
                     <label for="company">Universidad</label>
-                    <input type="text" class="form-control" name="company" id="company">
+                    <input type="text" class="form-control" name="company" id="universidad">
 
                     <div class="nk-gap-1"></div>
                     <div class="row vertical-gap">
@@ -523,40 +538,50 @@
                         </div>
                         <div class="col-sm-6">
                             <label for="phone">Telefono<span class="text-main-1">*</span>:</label>
-                            <input type="tel" class="form-control required" name="phone" id="phone">
+                            <input type="phone" class="form-control required" name="phone" id="telefono">
                         </div>
                     </div>
 
-                    <div class="nk-gap-1"></div>
-                    <label for="country-sel">Ciudad <span class="text-main-1">*</span>:</label>
-                    <select name="country" class="form-control required" id="country-sel">
-                        <option value="">Selecciona Ciudad</option>
-                    </select>
+                   
                 </div>
                 <div class="col-lg-6">
-                    <label for="address">Usuario<span class="text-main-1">*</span>:</label>
-                    <input type="text" class="form-control required" name="address" id="address">
-
-                    <div class="nk-gap-1"></div>
-                    <label for="city">DPI<span class="text-main-1">*</span>:</label>
-                    <input type="text" class="form-control required" name="city" id="city">
-
-                    <div class="nk-gap-1"></div>
+				
+				
                     <div class="row vertical-gap">
-                        <div class="col-sm-12">
-                            <label for="state">Fecha de Nacimiento<span class="text-main-1">*</span>:</label>
-                            <input type="text" class="form-control required" name="state" id="state">
+                        <div class="col-sm-6">
+                            <label for="fname">DPI<span class="text-main-1">*</span>:</label>
+                            <input type="text" class="form-control required" name="fname" id="dpi">
                         </div>
-                       
+                        <div class="col-sm-6">
+                            <label for="lname">Fecha de Nacimiento<span class="text-main-1">*</span>:</label>
+                            <input type="date" class="form-control required" name="lname" id="fecha">
+                        </div>
                     </div>
-
+					
+                        <div class="nk-gap-1"></div>
+                    <label for="company">Dirección</label>
+                    <input type="text" class="form-control" name="company" id="direccion">
+                       
+                   
+   			
+			
                     <div class="nk-gap-1"></div>
-                    <label class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input">
-                        <span class="custom-control-indicator"></span>
-                        
-                    </label>
-                </div>
+                     
+					 <div class="custom-radio">
+            <input type="radio" id="participate" name="tournament" value="yes">
+            <label for="participare">
+                <span>Si quiero participar en los torneos</span>
+            </label>
+        </div>
+					 
+        <div class="custom-radio">
+            <input type="radio" id="no-participate" name="tournament" value="no">
+            <label for="no-participare">
+                <span>No quiero participar en los torneos</span>
+            </label>
+        </div>
+               
+					</div>
             </div>
         </form>
         <!-- END: Billing Details -->
@@ -636,9 +661,10 @@
 </div>
 <div class="nk-gap-2"></div>
 
-
-        
-           
+<p></p><br>
+<p></p><br>		
+ <p></p> <br>      
+  <p></p>         
             <!-- START: Footer -->
 		
 <footer class="nk-footer">
