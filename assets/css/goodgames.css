@@ -110,6 +110,10 @@ body {
 	background-color: #000000;
     font-family: "Nunito Sans", serif;
 }
+p{
+    font-family: "Nunito Sans", serif;
+    color: #DFDFDF;
+}
 
 .nk-main {
     overflow: hidden;
