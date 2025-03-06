@@ -47,6 +47,7 @@
 
     <!-- GoodGames -->
     <link rel="stylesheet" href="assets/css/goodgames.css">
+	<link rel="stylesheet" href="assets/css/carrosel.css">
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -54,34 +55,17 @@
     <!-- END: Styles -->
 
     <!-- jQuery -->
+	<script src="assets/js/carrosel.js"></script>
     <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
 	<script src="https://kit.fontawesome.com/486d531a62.js" crossorigin="anonymous"></script>
-	<style>
-		
-		
-		body{
-			font-family: "Nunito Sans", "Verdana", "Segoe", "sans-serif", "Open Sans", "sans-serif";
-		}
-	</style>
-    
+	
     
 </head>
 
 
-<!--
-    Additional Classes:
-        .nk-page-boxed
--->
 <body>
     
-        
-
-
-
-<!--
-    Additional Classes:
-        .nk-header-opaque
--->
+       
 <header class="nk-header nk-header-opaque">
 
     
@@ -479,27 +463,22 @@
 <div class="container">
 
     <!-- START: Image Slider -->
-    <div class="nk-image-slider" data-autoplay="2500">
-        
-        
-        <div class="nk-image-slider-item">
-            <img src="assets/images/BANNER-HEADER-PROPLAYERS- 1.png" alt="" class="nk-image-slider-img" data-thumb="assets/images/BANNER-HEADER-PROPLAYERS- 1.png">
-            
-        </div>
-        
-        <div class="nk-image-slider-item">
-            <img src="assets/images/BANNER-HEADER-2-PROPLAYERS-.png" alt="" class="nk-image-slider-img" data-thumb="assets/images/BANNER-HEADER-2-PROPLAYERS-.png">
-  
-        </div>
-        
-       <div class="nk-image-slider-item">
-            <img src="assets/images/BANNER-HEADER-3-PROPLAYERS-.png" alt="" class="nk-image-slider-img" data-thumb="assets/images/BANNER-HEADER-3-PROPLAYERS-.png">
-            
-        </div>
-        
-  
-        
+   <div class="nk-image-slider">
+    <div class="nk-image-slider-item">
+        <img src="assets/images/BANNER-HEADER-PROPLAYERS- 1.png" alt="" class="nk-image-slider-img">
     </div>
+    <div class="nk-image-slider-item">
+        <img src="assets/images/BANNER-HEADER-2-PROPLAYERS-.png" alt="" class="nk-image-slider-img">
+    </div>
+    <div class="nk-image-slider-item">
+        <img src="assets/images/BANNER-HEADER-3-PROPLAYERS-.png" alt="" class="nk-image-slider-img">
+    </div>
+    <div class="nk-slider-dots">
+        <span class="nk-dot" data-slide="0"></span>
+        <span class="nk-dot" data-slide="1"></span>
+        <span class="nk-dot" data-slide="2"></span>
+    </div>
+</div>
     <!-- END: Image Slider -->
 
     
@@ -2405,6 +2384,7 @@
 <!-- START: Scripts -->
 
 <!-- Object Fit Polyfill -->
+
 <script src="assets/vendor/object-fit-images/dist/ofi.min.js"></script>
 
 <!-- GSAP -->
