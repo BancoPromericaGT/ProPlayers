@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Cambia automáticamente cada 4 segundos
-    setInterval(nextSlide, 4000); // Cambia cada 4 segundos
+    // Cambia automáticamente cada 5 segundos
+    setInterval(nextSlide, 5000); // Cambia cada 5 segundos
 });
 
   
